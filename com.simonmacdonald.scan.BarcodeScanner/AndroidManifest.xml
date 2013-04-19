@@ -48,7 +48,8 @@
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
 
 
-    <application android:icon="@drawable/icon" android:label="@string/app_name"
+    <application   android:icon="@drawable/fairchain_coffee"
+         android:label="@string/app_name"
         android:hardwareAccelerated="true"
         android:debuggable="true">
         <activity android:name="BarcodeScanner" android:label="@string/app_name"
@@ -72,7 +73,7 @@
             </intent-filter> 
         </activity> 
         <activity android:name="com.google.zxing.client.android.encode.EncodeActivity" 
-        	android:label="@string/share_name"> 
+        	android:label="@string/app_name"> 
         	<intent-filter> 
         		<action android:name="com.phonegap.plugins.barcodescanner.ENCODE"/> 
         		<category android:name="android.intent.category.DEFAULT"/> 
