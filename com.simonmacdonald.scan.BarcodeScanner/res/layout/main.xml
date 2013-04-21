@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+ <!-- 
+			* @title Moyee Login Scherm
+			* @author Robbert van der Hulst
+			* @param S1063848
+			* @since 04-04-2013
+			* @version 1.0
+			*/
+			-->
+			
+			<!-- De lay-out van het document wordt ingesteld
+			Achtergrondkleur van de pagina wordt meegegeven. RvdH -->
+			
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+    <!-- Er wordt een tekst meegegeven. RvdH -->
 <TextView
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:text="Hello World, BarcodeScanner"
+    android:text="BarcodeScanner"
     />
 </LinearLayout>
 
